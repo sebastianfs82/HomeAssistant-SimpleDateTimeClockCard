@@ -21,7 +21,7 @@ class SimpleDateTimeClockCard extends HTMLElement
             timeDiv.style.fontSize = this.config.time_font_size !== undefined ? this.config.time_font_size : '5em';
             timeDiv.style.fontWeight = 100;
             dateDiv.style.fontSize = this.config.date_font_size !== undefined ? this.config.date_font_size : '2em';
-            dateDiv.style.fontWeight = 400;
+            dateDiv.style.fontWeight = 600;
 
             card.appendChild(this.content);
             this.appendChild(card);
